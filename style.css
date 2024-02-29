@@ -76,9 +76,7 @@ div.question .trigger img{
     color: hsl(292, 16%, 49%);
 }
 @media screen and (max-width:1440px){
-    main{
-        left:400px;
-    }
+   
     h1{
         font-size: 1.5em;
     }
