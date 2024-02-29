@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'work sans';
+    
+}
+body{
+    background:hsl(275, 100%, 97%)
+}
+nav{
+    background: url(./assets/images/background-pattern-desktop.svg);
+    width:100%;
+    height: 250px;
+}
+main{
+    max-width:500px;
+    padding: 15px;
+    background:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(82, 80, 80,0.1);
+    position:absolute;
+    top:150px;
+    left:530px;
+    font-size: 12px;
+    z-index: 10;
+}
+.nav{
+    display:flex;
+    align-items: center;
+}
+h1{
+    font-size: 2em;
+    text-indent: 20px;
+    color:hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.nav img{
+    width:23px;
+}
+main div.question{
+    padding:20px 0px;
+    color: hsl(292, 42%, 14%);
+    border-bottom: 0.5px solid hsl(0, 8%, 95%,0.5) ;
+}
+main div.question .trigger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+    cursor: pointer;
+}
+main div.question .trigger:hover{
+ color: hsl(295, 63%, 57%);
+ transform: scale(1.02,1.02);
+}
+
+main div.question .trigger:focus{
+    transform: scale(1.02,1.02);
+    outline: none;
+    color: hsl(295, 63%, 57%);
+}
+div.question .trigger img{
+    cursor: pointer;
+    width: 25px;
+}
+.content{
+    display:none;
+}
+.active{
+    display: block;
+    padding-top:10px;
+    font-weight: 200;
+    color: hsl(292, 16%, 49%);
+}
+@media screen and (max-width:1440px){
+    main{
+        left:400px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .nav img{
+        width: 23px;
+    }
+    main div.question .trigger{
+        font-size:16px;
+    }
+    .content{
+        font-size: 14px;
+    }
+    .attribution a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1200px){
+main{
+    left: 260px;
+}
+main div.question .trigger{
+    font-size:16px;
+}
+.content{
+    font-size: 15px;
+}
+}
+@media screen and (max-width:780px){
+    main{
+        left:170px;
+        top:140px;
+        width:450px;
+    }
+    h1{
+        font-size: 1.3em;
+    }
+    .nav img{
+        width:18px
+    }
+    main div.question .trigger{
+        font-size:14px;
+    }
+    .content{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:600px){
+    main{
+        max-width: 300px;
+        left: 120px;
+        font-size: 5px;
+        padding:10px;
+        margin-bottom: 5px;
+    }
+   
+    main div.question .trigger{
+        font-size:13px;
+    }
+    div.question .trigger img{
+        width: 20px
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    .nav img{
+        width:15px
+    }
+    .attribution a{
+        font-size: 13px;
+    }
+main div.question{
+    padding:20px 0px;
+}
+.content{
+    font-size: 11px;
+}
+}
+@media screen and (max-width:500px){
+    main{
+        max-width: 300px;
+        left: 60px;
+        font-size: 5px;
+        padding:10px;
+        margin-bottom: 5px;
+    }
+   
+    main div.question .trigger{
+        font-size:13px;
+    }
+    div.question .trigger img{
+        width: 20px
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    .nav img{
+        width:15px
+    }
+    .attribution a{
+        font-size: 13px;
+    }
+main div.question{
+    padding:20px 0px;
+}
+.content{
+    font-size: 11px;
+}
+}
+@media screen and (max-width:375px){
+    main{
+        max-width: 280px;
+        left: 42px;
+        font-size: 5px;
+        padding:10px;
+        margin-bottom: 5px;
+    }
+   
+    main div.question .trigger{
+        font-size:13px;
+    }
+    div.question .trigger img{
+        width: 20px
+    }
+    h1{
+        font-size: 1em;
+    }
+    .nav img{
+        width:15px
+    }
+    .attribution a{
+        font-size: 13px;
+    }
+main div.question{
+    padding:20px 0px;
+}
+.content{
+    font-size: 11px;
+}
+}
+@media screen and (max-width:355px){
+    main{
+        max-width: 250px;
+        left: 35px;
+        font-size: 5px;
+        padding:10px;
+        margin-bottom: 5px;
+    }
+   
+    main div.question .trigger{
+        font-size:13px;
+    }
+    div.question .trigger img{
+        width: 20px
+    }
+    h1{
+        font-size: 1em;
+    }
+    .nav img{
+        width:15px
+    }
+    .attribution a{
+        font-size: 10px;
+    }
+main div.question{
+    padding:20px 0px;
+}
+.content{
+    font-size: 11px;
+}
+}
+@media screen and (max-width:300px){
+    main{
+        max-width: 250px;
+        left:14px;
+        font-size: px;
+    
+    }
+    main div.question .trigger{
+        font-size:13px;
+    }
+    div.question .trigger img{
+        width: 20px
+    }
+    h1{
+        font-size: 1em;
+    }
+    .nav img{
+        width:15px
+    }
+    .attribution a{
+        font-size: 13px;
+    }
+    .content{
+        font-size: 10px;
+    }
+}
